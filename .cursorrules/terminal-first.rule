@@ -1,60 +1,66 @@
 // .cursorrules/terminal-first.rule
-// ███████╗██╗   ██╗ ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗     ██████╗ ███████╗██╗   ██╗███████╗
-// ██╔════╝██║   ██║██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝     ██╔══██╗██╔════╝██║   ██║██╔════╝
-// █████╗  ██║   ██║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗    ██║  ██║█████╗  ██║   ██║███████╗
-// ██╔══╝  ██║   ██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║    ██║  ██║██╔══╝  ╚██╗ ██╔╝╚════██║
-// ██║     ╚██████╔╝╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝    ██████╔╝███████╗ ╚████╔╝ ███████║
-// ╚═╝      ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝
+// ███████╗  ██╗   ██╗   ██████╗  ██╗  ██╗  ██╗  ███╗   ██╗   ██████╗      ██████╗   ███████╗  ██╗   ██╗  ███████╗
+// ██╔════╝  ██║   ██║  ██╔════╝  ██║ ██╔╝  ██║  ████╗  ██║  ██╔════╝      ██╔══██╗  ██╔════╝  ██║   ██║  ██╔════╝
+// █████╗    ██║   ██║  ██║       █████╔╝   ██║  ██╔██╗ ██║  ██║  ███╗     ██║  ██║  █████╗    ██║   ██║  ███████╗
+// ██╔══╝    ██║   ██║  ██║       ██╔═██╗   ██║  ██║╚██╗██║  ██║   ██║     ██║  ██║  ██╔══╝    ╚██╗ ██╔╝  ╚════██║
+// ██║       ╚██████╔╝  ╚██████╗  ██║  ██╗  ██║  ██║ ╚████║  ╚██████╔╝     ██████╔╝  ███████╗   ╚████╔╝   ███████║
+// ╚═╝        ╚═════╝    ╚═════╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝  ╚═══╝   ╚═════╝      ╚═════╝   ╚══════╝    ╚═══╝    ╚══════╝
 
-// MOST IMPORTANT RULE: ALWAYS USE TERMINAL COMMANDS INSTEAD OF NATURAL LANGUAGE INSTRUCTIONS
+// MOST IMPORTANT RULE: NATURAL CONVERSATION FIRST, FOLLOWED BY TERMINAL COMMANDS
 //
 // Instead of saying: "Create a new file called app.tsx in the src directory"
-// ALWAYS PROVIDE: `touch src/app.tsx`
+// ALWAYS PROVIDE: "Let me create the main app component file for you. Here's the command:
+//                 `touch src/app.tsx`"
 //
 // Instead of saying: "Update your package.json to add tailwindcss"
-// ALWAYS PROVIDE: `npm install tailwindcss`
+// ALWAYS PROVIDE: "We need to add Tailwind CSS to your project. Run this command:
+//                 `npm install tailwindcss`"
 //
 // THIS IS A ZERO-TOLERANCE RULE.
 
-// ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗         ███████╗██╗██████╗ ███████╗████████╗
-// ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║         ██╔════╝██║██╔══██╗██╔════╝╚══██╔══╝
-//    ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║         █████╗  ██║██████╔╝███████╗   ██║
-//    ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║         ██╔══╝  ██║██╔══██╗╚════██║   ██║
-//    ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗    ██║     ██║██║  ██║███████║   ██║
-//    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝
+// ████████╗  ███████╗  ██████╗   ███╗   ███╗  ██╗  ███╗   ██╗   █████╗   ██╗         ███████╗  ██╗  ██████╗   ███████╗  ████████╗
+// ╚══██╔══╝  ██╔════╝  ██╔══██╗  ████╗ ████║  ██║  ████╗  ██║  ██╔══██╗  ██║         ██╔════╝  ██║  ██╔══██╗  ██╔════╝  ╚══██╔══╝
+//    ██║     █████╗    ██████╔╝  ██╔████╔██║  ██║  ██╔██╗ ██║  ███████║  ██║         █████╗    ██║  ██████╔╝  ███████╗     ██║
+//    ██║     ██╔══╝    ██╔══██╗  ██║╚██╔╝██║  ██║  ██║╚██╗██║  ██╔══██║  ██║         ██╔══╝    ██║  ██╔══██╗  ╚════██║     ██║
+//    ██║     ███████╗  ██║  ██║  ██║ ╚═╝ ██║  ██║  ██║ ╚████║  ██║  ██║  ███████╗    ██║       ██║  ██║  ██║  ███████║     ██║
+//    ╚═╝     ╚══════╝  ╚═╝  ╚═╝  ╚═╝     ╚═╝  ╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝  ╚══════╝    ╚═╝       ╚═╝  ╚═╝  ╚═╝  ╚══════╝     ╚═╝
 
 // Terminal command rules:
-// 1. ALWAYS provide incremental terminal commands, one at a time
-// 2. NEVER include comments within the terminal command itself
-// 3. NEVER bundle multiple commands together unless absolutely necessary
-// 4. ALWAYS format terminal commands for easy one-click execution in Cursor
-// 5. ALWAYS verify command success before proceeding to the next one
+// 1. ALWAYS provide natural conversation FIRST, then terminal commands
+// 2. ALWAYS provide incremental terminal commands, one at a time
+// 3. NEVER include comments within the terminal command itself
+// 4. NEVER bundle multiple commands together unless absolutely necessary
+// 5. ALWAYS format terminal commands for easy one-click execution in Cursor
+// 6. ALWAYS verify command success before proceeding to the next one
 
-// ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗███████╗██╗      ██████╗ ██╗    ██╗
-// ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝██║     ██╔═══██╗██║    ██║
-// ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ █████╗  ██║     ██║   ██║██║ █╗ ██║
-// ██║███╗██║██║   ██║██╔══██╗██╔═██╗ ██╔══╝  ██║     ██║   ██║██║███╗██║
-// ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗██║     ███████╗╚██████╔╝╚███╔███╔╝
-//  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝
+// ██╗    ██╗   ██████╗   ██████╗   ██╗  ██╗  ███████╗  ██╗       ██████╗   ██╗    ██╗
+// ██║    ██║  ██╔═══██╗  ██╔══██╗  ██║ ██╔╝  ██╔════╝  ██║      ██╔═══██╗  ██║    ██║
+// ██║ █╗ ██║  ██║   ██║  ██████╔╝  █████╔╝   █████╗    ██║      ██║   ██║  ██║ █╗ ██║
+// ██║███╗██║  ██║   ██║  ██╔══██╗  ██╔═██╗   ██╔══╝    ██║      ██║   ██║  ██║███╗██║
+// ╚███╔███╔╝  ╚██████╔╝  ██║  ██║  ██║  ██╗  ██║       ███████╗  ╚██████╔╝  ╚███╔███╔╝
+//  ╚══╝╚══╝    ╚═════╝   ╚═╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝       ╚══════╝   ╚═════╝    ╚══╝╚══╝
 
 // Deployment workflow:
 // - Deploy directly from v0.dev to Vercel (skipping GitHub when possible)
 // - Only use GitHub when absolutely necessary
+// - Always use Docker for development environment
 // - Prioritize speed and efficiency over traditional git workflows
 
-// ██╗   ██╗██╗███████╗██╗   ██╗ █████╗ ██╗         ███████╗████████╗██╗   ██╗██╗     ███████╗
-// ██║   ██║██║██╔════╝██║   ██║██╔══██╗██║         ██╔════╝╚══██╔══╝╚██╗ ██╔╝██║     ██╔════╝
-// ██║   ██║██║███████╗██║   ██║███████║██║         ███████╗   ██║    ╚████╔╝ ██║     █████╗
-// ╚██╗ ██╔╝██║╚════██║██║   ██║██╔══██║██║         ╚════██║   ██║     ╚██╔╝  ██║     ██╔══╝
-//  ╚████╔╝ ██║███████║╚██████╔╝██║  ██║███████╗    ███████║   ██║      ██║   ███████╗███████╗
-//   ╚═══╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚══════╝
+// ██╗   ██╗  ██╗  ███████╗  ██╗   ██╗   █████╗   ██╗         ███████╗  ████████╗  ██╗   ██╗  ██╗      ███████╗
+// ██║   ██║  ██║  ██╔════╝  ██║   ██║  ██╔══██╗  ██║         ██╔════╝  ╚══██╔══╝  ╚██╗ ██╔╝  ██║      ██╔════╝
+// ██║   ██║  ██║  ███████╗  ██║   ██║  ███████║  ██║         ███████╗     ██║      ╚████╔╝   ██║      █████╗
+// ╚██╗ ██╔╝  ██║  ╚════██║  ██║   ██║  ██╔══██║  ██║         ╚════██║     ██║       ╚██╔╝    ██║      ██╔══╝
+//  ╚████╔╝   ██║  ███████║  ╚██████╔╝  ██║  ██║  ███████╗    ███████║     ██║        ██║     ███████╗  ███████╗
+//   ╚═══╝    ╚═╝  ╚══════╝   ╚═════╝   ╚═╝  ╚═╝  ╚══════╝    ╚══════╝     ╚═╝        ╚═╝     ╚══════╝  ╚══════╝
 
 // Visual hierarchy rules:
-// 1. ALWAYS use ASCII art headers for major sections
+// 1. ALWAYS use BOLD, SPACED ASCII art headers for major sections
 // 2. ALWAYS add the filename as a comment at the top of every file
 // 3. Use structured, consistent formatting throughout
+// 4. Use ShadCN typography system for visual consistency
 
 // File patterns and specific rules:
 // *.tsx, *.ts: Use TypeScript for all code
 // *.css: Use Tailwind CSS
 // Avoid comments in user-facing code
+// Add console.logs and debug statements in development

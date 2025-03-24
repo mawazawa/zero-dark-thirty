@@ -1,19 +1,21 @@
 // .cursorrules/index.rule
-// ███╗   ███╗ █████╗ ███████╗████████╗███████╗██████╗     ██████╗ ██╗   ██╗██╗     ███████╗███████╗
-// ████╗ ████║██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗    ██╔══██╗██║   ██║██║     ██╔════╝██╔════╝
-// ██╔████╔██║███████║███████╗   ██║   █████╗  ██████╔╝    ██████╔╝██║   ██║██║     █████╗  ███████╗
-// ██║╚██╔╝██║██╔══██║╚════██║   ██║   ██╔══╝  ██╔══██╗    ██╔══██╗██║   ██║██║     ██╔══╝  ╚════██║
-// ██║ ╚═╝ ██║██║  ██║███████║   ██║   ███████╗██║  ██║    ██║  ██║╚██████╔╝███████╗███████╗███████║
-// ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝
+// ███╗   ███╗   █████╗   ███████╗  ████████╗  ███████╗  ██████╗      ██████╗   ██╗   ██╗  ██╗      ███████╗  ███████╗
+// ████╗ ████║  ██╔══██╗  ██╔════╝  ╚══██╔══╝  ██╔════╝  ██╔══██╗     ██╔══██╗  ██║   ██║  ██║      ██╔════╝  ██╔════╝
+// ██╔████╔██║  ███████║  ███████╗     ██║     █████╗    ██████╔╝     ██████╔╝  ██║   ██║  ██║      █████╗    ███████╗
+// ██║╚██╔╝██║  ██╔══██║  ╚════██║     ██║     ██╔══╝    ██╔══██╗     ██╔══██╗  ██║   ██║  ██║      ██╔══╝    ╚════██║
+// ██║ ╚═╝ ██║  ██║  ██║  ███████║     ██║     ███████╗  ██║  ██║     ██║  ██║  ╚██████╔╝  ███████╗  ███████╗  ███████║
+// ╚═╝     ╚═╝  ╚═╝  ╚═╝  ╚══════╝     ╚═╝     ╚══════╝  ╚═╝  ╚═╝     ╚═╝  ╚═╝   ╚═════╝   ╚══════╝  ╚══════╝  ╚══════╝
 
 // MASTER RULES INDEX
 // This file imports and prioritizes all cursor rules
 
 // Rule Priority (descending order):
-// 1. TERMINAL-FIRST - Most important rule of all
-// 2. VIBE-CODER - Aesthetic & coding philosophy
-// 3. AUTO-HEADER - File organization
-// 4. MAIN - General project setup
+// 1. HUMAN USER FLOW STATE OVER EVERYTHING
+// 2. NATURAL CONVERSATION FIRST, ALWAYS FOLLOWED BY ATOMIC TERMINAL COMMANDS
+// 3. TERMINAL-FIRST - Always use terminal commands for actions
+// 4. VIBE-CODER - Aesthetic & coding philosophy
+// 5. AUTO-HEADER - File organization
+// 6. MAIN - General project setup
 
 // RULE IMPORTS
 // @import "./terminal-first.rule"
@@ -21,25 +23,41 @@
 // @import "./auto-header.rule"
 // @import "./main.rule"
 
+// ██████╗   ██████╗    ██████╗      ██╗  ███████╗   ██████╗  ████████╗      ███╗   ███╗  ███████╗  ████████╗   █████╗   ██████╗    █████╗   ████████╗   █████╗
+// ██╔══██╗  ██╔══██╗  ██╔═══██╗     ██║  ██╔════╝  ██╔════╝  ╚══██╔══╝      ████╗ ████║  ██╔════╝  ╚══██╔══╝  ██╔══██╗  ██╔══██╗  ██╔══██╗  ╚══██╔══╝  ██╔══██╗
+// ██████╔╝  ██████╔╝  ██║   ██║     ██║  █████╗    ██║        ██║         ██╔████╔██║  █████╗       ██║     ███████║  ██║  ██║  ███████║     ██║     ███████║
+// ██╔═══╝   ██╔══██╗  ██║   ██║     ██║  ██╔══╝    ██║        ██║         ██║╚██╔╝██║  ██╔══╝       ██║     ██╔══██║  ██║  ██║  ██╔══██║     ██║     ██╔══██║
+// ██║       ██║  ██║  ╚██████╔╝     ██║  ███████╗  ╚██████╗   ██║         ██║ ╚═╝ ██║  ███████╗     ██║     ██║  ██║  ██████╔╝  ██║  ██║     ██║     ██║  ██║
+// ╚═╝       ╚═╝  ╚═╝   ╚═════╝      ╚═╝  ╚══════╝   ╚═════╝   ╚═╝         ╚═╝     ╚═╝  ╚══════╝     ╚═╝     ╚═╝  ╚═╝  ╚═════╝   ╚═╝  ╚═╝     ╚═╝     ╚═╝  ╚═╝
+
 // PROJECT METADATA
 // Project: ZERO DARK THIRTY
 // Author: @mawazawa
 // Style: Vibe Coder
 // Workflow: v0.dev → Vercel (direct to production)
+// Environment: Docker containerized development
 
 // ********************************************************************************
 // ****************** OPERATIONAL IMPLEMENTATION **********************************
 // ********************************************************************************
 
 // REMEMBER: Always format terminal commands as:
-// `command_here` (single line, in backticks, clickable)
+// 1. FIRST provide natural conversation
+// 2. THEN provide `command_here` (single line, in backticks, clickable)
+
+// Example conversation flow:
+// "Let's create the components directory for your project. Run this command:
+// `mkdir -p src/components`"
 
 // Example command usages:
 // - Creating file: `touch src/components/Button.tsx`
 // - Installing package: `npm install tailwindcss`
 // - Running dev server: `npm run dev`
 // - Deploying to production: `vercel --prod`
+// - Starting Docker: `docker-compose up -d`
 
-// ASCII art must be used for all major sections and headers
-// File organization must follow prescribed patterns
-// All code must be TypeScript
+// ASCII art MUST use BOLD, SPACED CHARACTER headers for all major sections
+// Filename must be included as a comment at the top of every file
+// Terminal command format: `command` (ready to run with one click)
+// All instructions must be incremental and terminal-based
+// Docker must be used for all development environments

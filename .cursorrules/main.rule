@@ -1,19 +1,24 @@
 // .cursorrules/main.rule - Primary Configuration File
-// ███████╗███████╗██████╗  ██████╗     ██████╗  █████╗ ██████╗ ██╗  ██╗    ████████╗██╗  ██╗██╗██████╗ ████████╗██╗   ██╗
-// ╚══███╔╝██╔════╝██╔══██╗██╔═══██╗    ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝    ╚══██╔══╝██║  ██║██║██╔══██╗╚══██╔══╝╚██╗ ██╔╝
-//   ███╔╝ █████╗  ██████╔╝██║   ██║    ██║  ██║███████║██████╔╝█████╔╝        ██║   ███████║██║██████╔╝   ██║    ╚████╔╝
-//  ███╔╝  ██╔══╝  ██╔══██╗██║   ██║    ██║  ██║██╔══██║██╔══██╗██╔═██╗        ██║   ██╔══██║██║██╔══██╗   ██║     ╚██╔╝
-// ███████╗███████╗██║  ██║╚██████╔╝    ██████╔╝██║  ██║██║  ██║██║  ██╗       ██║   ██║  ██║██║██║  ██║   ██║      ██║
-// ╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝   ╚═╝      ╚═╝
+// ███████╗  ███████╗  ██████╗   ██████╗      ██████╗   █████╗   ██████╗   ██╗  ██╗    ████████╗  ██╗  ██╗  ██╗  ██████╗   ████████╗  ██╗   ██╗
+// ╚══███╔╝  ██╔════╝  ██╔══██╗  ██╔═══██╗    ██╔══██╗  ██╔══██╗  ██╔══██╗  ██║ ██╔╝    ╚══██╔══╝  ██║  ██║  ██║  ██╔══██╗  ╚══██╔══╝  ╚██╗ ██╔╝
+//   ███╔╝   █████╗    ██████╔╝  ██║   ██║    ██║  ██║  ███████║  ██████╔╝  █████╔╝        ██║     ███████║  ██║  ██████╔╝     ██║      ╚████╔╝
+//  ███╔╝    ██╔══╝    ██╔══██╗  ██║   ██║    ██║  ██║  ██╔══██║  ██╔══██╗  ██╔═██╗        ██║     ██╔══██║  ██║  ██╔══██╗     ██║       ╚██╔╝
+// ███████╗  ███████╗  ██║  ██║  ╚██████╔╝    ██████╔╝  ██║  ██║  ██║  ██║  ██║  ██╗       ██║     ██║  ██║  ██║  ██║  ██║     ██║        ██║
+// ╚══════╝  ╚══════╝  ╚═╝  ╚═╝   ╚═════╝     ╚═════╝   ╚═╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝       ╚═╝     ╚═╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝     ╚═╝        ╚═╝
 
 // ****** PRIMARY OPERATING DIRECTIVES ******
-// 1. SPEED OVER EVERYTHING
-// 2. TERMINAL COMMANDS ALWAYS
-// 3. ASCII ART EVERYWHERE
+// 1. HUMAN USER FLOW STATE OVER EVERYTHING
+// 2. NATURAL CONVERSATION FIRST, ALWAYS FOLLOWED BY ATOMIC TERMINAL COMMANDS
+// 3. ASCII ART HEADERS EVERYWHERE (BOLD, SPACED CHARACTERS)
 // 4. VIBE > CONVENTION
 
-// #1: TERMINAL COMMANDS RULE
-// ALWAYS provide terminal commands rather than natural language instructions:
+// #1: FLOW STATE PRESERVATION RULE
+// ALWAYS provide natural conversation first, followed by terminal commands:
+// ❌ Just provide terminal commands with no context
+// ✅ Explain in conversational tone, THEN provide `mkdir -p src/components`
+
+// #2: TERMINAL COMMANDS RULE
+// After natural conversation, ALWAYS provide terminal commands for any action:
 // ❌ "Create a components directory"
 // ✅ `mkdir -p src/components`
 
@@ -29,6 +34,12 @@
 // v0.dev → Vercel (direct-to-production preferred workflow)
 // GitHub workflow only when absolutely necessary
 
+// Docker Environment:
+// - ALL dev environments must use Docker for consistency
+// - ALWAYS remind user to ensure Docker Desktop is running
+// - Use Docker Compose for multi-container setups
+// - Include Docker commands in suggested terminal commands
+
 // This is a Next.js/TypeScript/Tailwind project with the following specific requirements:
 // - TypeScript required for all code
 // - Tailwind for styling
@@ -37,6 +48,28 @@
 // - Dark mode default
 // - Suspense and dynamic loading for components
 // - Performance optimization as standard
+
+// ********************************************************************************
+// *************** VISUAL HIERARCHY GUIDELINES ************************************
+// ********************************************************************************
+
+// Visual Typography:
+// - Use ShadCN typography system
+// - Font: Inter (variable font)
+// - Font Sizes:
+//   - Headings: font-sans text-4xl font-bold tracking-tight
+//   - Body: font-sans text-base leading-7
+//   - Code: font-mono text-sm
+
+// Color System:
+// - Dark mode default (bg-neutral-950 text-neutral-50)
+// - Primary: indigo-600
+// - Secondary: rose-500
+// - Accent: amber-400
+// - Info: cyan-400
+// - Success: emerald-500
+// - Warning: amber-500
+// - Error: rose-600
 
 // ********************************************************************************
 // *************** FILE STRUCTURE GUIDELINES **************************************
@@ -56,13 +89,15 @@
 // │   ├── lib/           # Utility functions
 // │   └── types/         # TypeScript types
 // ├── .cursorrules/      # Cursor.so rules
+// ├── Dockerfile         # Docker configuration
+// ├── docker-compose.yml # Docker Compose config
 // └── package.json       # Dependencies
 
 // ********************************************************************************
 // *************** VIBE CHECK COMPLETE ********************************************
 // ********************************************************************************
 
-// ASCII art should be used for all major sections and headers
+// ASCII art must use BOLD, SPACED CHARACTER headers for all major sections
 // Filename must be included as a comment at the top of every file
 // Terminal command format: `command` (ready to run with one click)
 // All instructions must be incremental and terminal-based
