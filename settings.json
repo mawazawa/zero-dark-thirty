@@ -1,0 +1,48 @@
+{
+          "workbench.colorTheme": "Night Owl",
+          "workbench.colorCustomizations": {
+                    "editor.background": "#1A1B26",
+                    "sideBar.background": "#16161E",
+                    "terminal.background": "#1A1B26",
+                    // Vibe-enhancing syntax highlighting
+                    "editor.selectionBackground": "#3d59a1",
+                    "editor.selectionHighlightBackground": "#2f3d6d",
+                    "editor.lineHighlightBackground": "#202340"
+          },
+          // Disable VIM (because fuck that noise)
+          "vim.enabled": false,
+          // Enhanced logging and debugging
+          "console.logs": {
+                    "fontSize": "16px",
+                    "fontFamily": "Fira Code",
+                    "lineHeight": 1.6
+          },
+          // AI-assisted features
+          "github.copilot.enable": true,
+          "cursor.ai.enableAutoComplete": true,
+          // Visual hierarchy improvements
+          "editor.fontSize": 16,
+          "editor.lineHeight": 28,
+          "editor.fontFamily": "Fira Code, Menlo, Monaco",
+          "editor.fontLigatures": true,
+          // Enhanced debugging experience
+          "debug.console.fontSize": 14,
+          "debug.toolBar.visible": true,
+          "debug.inlineValues": true,
+          // Aesthetic improvements
+          "workbench.iconTheme": "material-icon-theme",
+          "editor.minimap.enabled": true,
+          "editor.minimap.renderCharacters": false,
+          "editor.minimap.maxColumn": 80,
+          // ADHD-friendly features
+          "editor.cursorBlinking": "smooth",
+          "editor.cursorSmoothCaretAnimation": true,
+          "editor.smoothScrolling": true,
+          // Enhanced logging
+          "console.logPatterns": {
+                    "info": "💡",
+                    "warning": "⚠️",
+                    "error": "🔥",
+                    "debug": "🐛"
+          }
+}
