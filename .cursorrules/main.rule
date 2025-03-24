@@ -1,0 +1,68 @@
+// .cursorrules/main.rule - Primary Configuration File
+// ███████╗███████╗██████╗  ██████╗     ██████╗  █████╗ ██████╗ ██╗  ██╗    ████████╗██╗  ██╗██╗██████╗ ████████╗██╗   ██╗
+// ╚══███╔╝██╔════╝██╔══██╗██╔═══██╗    ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝    ╚══██╔══╝██║  ██║██║██╔══██╗╚══██╔══╝╚██╗ ██╔╝
+//   ███╔╝ █████╗  ██████╔╝██║   ██║    ██║  ██║███████║██████╔╝█████╔╝        ██║   ███████║██║██████╔╝   ██║    ╚████╔╝
+//  ███╔╝  ██╔══╝  ██╔══██╗██║   ██║    ██║  ██║██╔══██║██╔══██╗██╔═██╗        ██║   ██╔══██║██║██╔══██╗   ██║     ╚██╔╝
+// ███████╗███████╗██║  ██║╚██████╔╝    ██████╔╝██║  ██║██║  ██║██║  ██╗       ██║   ██║  ██║██║██║  ██║   ██║      ██║
+// ╚══════╝╚══════╝╚═╝  ╚═╝ ╚═════╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝   ╚═╝      ╚═╝
+
+// ****** PRIMARY OPERATING DIRECTIVES ******
+// 1. SPEED OVER EVERYTHING
+// 2. TERMINAL COMMANDS ALWAYS
+// 3. ASCII ART EVERYWHERE
+// 4. VIBE > CONVENTION
+
+// #1: TERMINAL COMMANDS RULE
+// ALWAYS provide terminal commands rather than natural language instructions:
+// ❌ "Create a components directory"
+// ✅ `mkdir -p src/components`
+
+// ********************************************************************************
+// *************** CURSOR PROJECT SPECIFICS ****************************************
+// ********************************************************************************
+
+// User Details:
+// - GitHub Username: mawazawa
+// - Email: mawazawa@users.noreply.github.com
+
+// Project Workflow:
+// v0.dev → Vercel (direct-to-production preferred workflow)
+// GitHub workflow only when absolutely necessary
+
+// This is a Next.js/TypeScript/Tailwind project with the following specific requirements:
+// - TypeScript required for all code
+// - Tailwind for styling
+// - Aceternity UI components preferred
+// - Mobile-first design
+// - Dark mode default
+// - Suspense and dynamic loading for components
+// - Performance optimization as standard
+
+// ********************************************************************************
+// *************** FILE STRUCTURE GUIDELINES **************************************
+// ********************************************************************************
+
+// Always add file name as a comment at top of every file:
+// Example:
+// `// src/components/Button.tsx`
+
+// Folder Structure:
+// .
+// ├── public/            # Static assets
+// ├── src/               # All source code
+// │   ├── app/           # Next.js App Router
+// │   ├── components/    # Reusable components
+// │   ├── hooks/         # Custom React hooks
+// │   ├── lib/           # Utility functions
+// │   └── types/         # TypeScript types
+// ├── .cursorrules/      # Cursor.so rules
+// └── package.json       # Dependencies
+
+// ********************************************************************************
+// *************** VIBE CHECK COMPLETE ********************************************
+// ********************************************************************************
+
+// ASCII art should be used for all major sections and headers
+// Filename must be included as a comment at the top of every file
+// Terminal command format: `command` (ready to run with one click)
+// All instructions must be incremental and terminal-based

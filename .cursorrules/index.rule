@@ -1,0 +1,45 @@
+// .cursorrules/index.rule
+// ███╗   ███╗ █████╗ ███████╗████████╗███████╗██████╗     ██████╗ ██╗   ██╗██╗     ███████╗███████╗
+// ████╗ ████║██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗    ██╔══██╗██║   ██║██║     ██╔════╝██╔════╝
+// ██╔████╔██║███████║███████╗   ██║   █████╗  ██████╔╝    ██████╔╝██║   ██║██║     █████╗  ███████╗
+// ██║╚██╔╝██║██╔══██║╚════██║   ██║   ██╔══╝  ██╔══██╗    ██╔══██╗██║   ██║██║     ██╔══╝  ╚════██║
+// ██║ ╚═╝ ██║██║  ██║███████║   ██║   ███████╗██║  ██║    ██║  ██║╚██████╔╝███████╗███████╗███████║
+// ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝
+
+// MASTER RULES INDEX
+// This file imports and prioritizes all cursor rules
+
+// Rule Priority (descending order):
+// 1. TERMINAL-FIRST - Most important rule of all
+// 2. VIBE-CODER - Aesthetic & coding philosophy
+// 3. AUTO-HEADER - File organization
+// 4. MAIN - General project setup
+
+// RULE IMPORTS
+// @import "./terminal-first.rule"
+// @import "./vibe-coder.rule"
+// @import "./auto-header.rule"
+// @import "./main.rule"
+
+// PROJECT METADATA
+// Project: ZERO DARK THIRTY
+// Author: @mawazawa
+// Style: Vibe Coder
+// Workflow: v0.dev → Vercel (direct to production)
+
+// ********************************************************************************
+// ****************** OPERATIONAL IMPLEMENTATION **********************************
+// ********************************************************************************
+
+// REMEMBER: Always format terminal commands as:
+// `command_here` (single line, in backticks, clickable)
+
+// Example command usages:
+// - Creating file: `touch src/components/Button.tsx`
+// - Installing package: `npm install tailwindcss`
+// - Running dev server: `npm run dev`
+// - Deploying to production: `vercel --prod`
+
+// ASCII art must be used for all major sections and headers
+// File organization must follow prescribed patterns
+// All code must be TypeScript

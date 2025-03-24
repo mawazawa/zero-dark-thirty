@@ -1,0 +1,48 @@
+// .cursorrules/auto-header.rule
+// ██╗  ██╗███████╗ █████╗ ██████╗ ███████╗██████╗     ██████╗ ██╗   ██╗██╗     ███████╗███████╗
+// ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗    ██╔══██╗██║   ██║██║     ██╔════╝██╔════╝
+// ███████║█████╗  ███████║██║  ██║█████╗  ██████╔╝    ██████╔╝██║   ██║██║     █████╗  ███████╗
+// ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══╝  ██╔══██╗    ██╔══██╗██║   ██║██║     ██╔══╝  ╚════██║
+// ██║  ██║███████╗██║  ██║██████╔╝███████╗██║  ██║    ██║  ██║╚██████╔╝███████╗███████╗███████║
+// ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝
+
+// AUTO-HEADER RULES
+// Every file must start with a header comment containing:
+// 1. Filename
+// 2. Brief purpose
+// 3. Last modified date
+// 4. Author
+
+// TYPESCRIPT FILES
+// Example header for a TypeScript file:
+/*
+ * src/components/Button.tsx
+ * Reusable button component with variants
+ * Last modified: 2025-03-24
+ * Author: @mawazawa
+ */
+
+// SCSS/CSS FILES
+// Example header for a CSS file:
+/*
+ * src/styles/components.css
+ * Component-specific styles
+ * Last modified: 2025-03-24
+ * Author: @mawazawa
+ */
+
+// MARKDOWN FILES
+// Example header for a Markdown file:
+<!--
+ * README.md
+ * Project documentation
+ * Last modified: 2025-03-24
+ * Author: @mawazawa
+-->
+
+// JSON FILES
+// Example header for a JSON file (as a comment above the file):
+// package.json
+// Project dependencies and scripts
+// Last modified: 2025-03-24
+// Author: @mawazawa

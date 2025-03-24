@@ -1,0 +1,60 @@
+// .cursorrules/terminal-first.rule
+// ███████╗██╗   ██╗ ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗     ██████╗ ███████╗██╗   ██╗███████╗
+// ██╔════╝██║   ██║██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝     ██╔══██╗██╔════╝██║   ██║██╔════╝
+// █████╗  ██║   ██║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗    ██║  ██║█████╗  ██║   ██║███████╗
+// ██╔══╝  ██║   ██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║    ██║  ██║██╔══╝  ╚██╗ ██╔╝╚════██║
+// ██║     ╚██████╔╝╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝    ██████╔╝███████╗ ╚████╔╝ ███████║
+// ╚═╝      ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝
+
+// MOST IMPORTANT RULE: ALWAYS USE TERMINAL COMMANDS INSTEAD OF NATURAL LANGUAGE INSTRUCTIONS
+//
+// Instead of saying: "Create a new file called app.tsx in the src directory"
+// ALWAYS PROVIDE: `touch src/app.tsx`
+//
+// Instead of saying: "Update your package.json to add tailwindcss"
+// ALWAYS PROVIDE: `npm install tailwindcss`
+//
+// THIS IS A ZERO-TOLERANCE RULE.
+
+// ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗         ███████╗██╗██████╗ ███████╗████████╗
+// ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║         ██╔════╝██║██╔══██╗██╔════╝╚══██╔══╝
+//    ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║         █████╗  ██║██████╔╝███████╗   ██║
+//    ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║         ██╔══╝  ██║██╔══██╗╚════██║   ██║
+//    ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗    ██║     ██║██║  ██║███████║   ██║
+//    ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝
+
+// Terminal command rules:
+// 1. ALWAYS provide incremental terminal commands, one at a time
+// 2. NEVER include comments within the terminal command itself
+// 3. NEVER bundle multiple commands together unless absolutely necessary
+// 4. ALWAYS format terminal commands for easy one-click execution in Cursor
+// 5. ALWAYS verify command success before proceeding to the next one
+
+// ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗███████╗██╗      ██████╗ ██╗    ██╗
+// ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝██║     ██╔═══██╗██║    ██║
+// ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ █████╗  ██║     ██║   ██║██║ █╗ ██║
+// ██║███╗██║██║   ██║██╔══██╗██╔═██╗ ██╔══╝  ██║     ██║   ██║██║███╗██║
+// ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗██║     ███████╗╚██████╔╝╚███╔███╔╝
+//  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝
+
+// Deployment workflow:
+// - Deploy directly from v0.dev to Vercel (skipping GitHub when possible)
+// - Only use GitHub when absolutely necessary
+// - Prioritize speed and efficiency over traditional git workflows
+
+// ██╗   ██╗██╗███████╗██╗   ██╗ █████╗ ██╗         ███████╗████████╗██╗   ██╗██╗     ███████╗
+// ██║   ██║██║██╔════╝██║   ██║██╔══██╗██║         ██╔════╝╚══██╔══╝╚██╗ ██╔╝██║     ██╔════╝
+// ██║   ██║██║███████╗██║   ██║███████║██║         ███████╗   ██║    ╚████╔╝ ██║     █████╗
+// ╚██╗ ██╔╝██║╚════██║██║   ██║██╔══██║██║         ╚════██║   ██║     ╚██╔╝  ██║     ██╔══╝
+//  ╚████╔╝ ██║███████║╚██████╔╝██║  ██║███████╗    ███████║   ██║      ██║   ███████╗███████╗
+//   ╚═══╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝    ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚══════╝
+
+// Visual hierarchy rules:
+// 1. ALWAYS use ASCII art headers for major sections
+// 2. ALWAYS add the filename as a comment at the top of every file
+// 3. Use structured, consistent formatting throughout
+
+// File patterns and specific rules:
+// *.tsx, *.ts: Use TypeScript for all code
+// *.css: Use Tailwind CSS
+// Avoid comments in user-facing code
