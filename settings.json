@@ -44,5 +44,57 @@
                     "warning": "⚠️",
                     "error": "🔥",
                     "debug": "🐛"
-          }
+          },
+          "user": {
+                    "name": "mawazawa",
+                    "email": "mawazawa@users.noreply.github.com",
+                    "github": "mawazawa"
+          },
+          "editor": {
+                    "theme": "dark",
+                    "font": {
+                              "family": "JetBrains Mono",
+                              "size": 14,
+                              "ligatures": true
+                    }
+          },
+          "terminal": {
+                    "shell": "/bin/bash",
+                    "theme": "dark",
+                    "font": {
+                              "family": "JetBrains Mono",
+                              "size": 14
+                    }
+          },
+          "git": {
+                    "defaultBranch": "main",
+                    "commitMessageTemplate": "feat: %s",
+                    "autoFetch": true,
+                    "pruneOnFetch": true
+          },
+          "workflow": {
+                    "autoSave": true,
+                    "formatOnSave": true,
+                    "lintOnSave": true,
+                    "useTypeScript": true,
+                    "useTailwind": true
+          },
+          "deployment": {
+                    "platform": "vercel",
+                    "autoDeployBranches": [
+                              "main",
+                              "develop"
+                    ],
+                    "productionBranch": "main"
+          },
+          // Chat panel position and text selection settings
+          "workbench.activityBar.location": "side",
+          "workbench.sideBar.location": "left",
+          "workbench.panel.defaultLocation": "right",
+          // Make text selection easier
+          "editor.selectionClipboard": true,
+          "editor.multiCursorModifier": "ctrlCmd",
+          "editor.mouseWheelZoom": true,
+          // Ensure chat is on right side
+          "cursor.chat.position": "right"
 }
