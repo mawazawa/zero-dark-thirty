@@ -1,0 +1,106 @@
+{
+          "editor.fontFamily": "Inter var, JetBrains Mono, Monaco, 'Courier New', monospace",
+          "editor.fontSize": 14,
+          "editor.fontWeight": "500",
+          "editor.lineHeight": 1.6,
+          "editor.letterSpacing": 0.5,
+          "editor.fontLigatures": true,
+          "terminal.integrated.fontFamily": "JetBrains Mono, Monaco, 'Courier New', monospace",
+          "terminal.integrated.fontSize": 14,
+          "terminal.integrated.fontWeight": "500",
+          "terminal.integrated.lineHeight": 1.4,
+          "workbench.colorTheme": "One Dark Pro",
+          "workbench.colorCustomizations": {
+                    "terminal.background": "#0F172A",
+                    "terminal.foreground": "#F8FAFC",
+                    "terminalCursor.background": "#FF6E4A",
+                    "terminalCursor.foreground": "#FF6E4A",
+                    "terminal.ansiBlack": "#0F172A",
+                    "terminal.ansiBlue": "#3B82F6",
+                    "terminal.ansiBrightBlack": "#334155",
+                    "terminal.ansiBrightBlue": "#60A5FA",
+                    "terminal.ansiBrightCyan": "#22D3EE",
+                    "terminal.ansiBrightGreen": "#4ADE80",
+                    "terminal.ansiBrightMagenta": "#C084FC",
+                    "terminal.ansiBrightRed": "#F87171",
+                    "terminal.ansiBrightWhite": "#F8FAFC",
+                    "terminal.ansiBrightYellow": "#FACC15",
+                    "terminal.ansiCyan": "#06B6D4",
+                    "terminal.ansiGreen": "#22C55E",
+                    "terminal.ansiMagenta": "#A855F7",
+                    "terminal.ansiRed": "#EF4444",
+                    "terminal.ansiWhite": "#E2E8F0",
+                    "terminal.ansiYellow": "#EAB308",
+                    "editor.background": "#0F172A",
+                    "editor.foreground": "#F8FAFC",
+                    "editorCursor.foreground": "#FF6E4A",
+                    "editorCursor.background": "#FF6E4A",
+                    "activityBar.background": "#0F172A",
+                    "activityBar.foreground": "#F8FAFC",
+                    "activityBarBadge.background": "#FF6E4A",
+                    "activityBarBadge.foreground": "#F8FAFC",
+                    "sideBar.background": "#1E293B",
+                    "sideBar.foreground": "#F8FAFC",
+                    "sideBarTitle.foreground": "#FF6E4A",
+                    "statusBar.background": "#0F172A",
+                    "statusBar.foreground": "#F8FAFC",
+                    "statusBarItem.hoverBackground": "#334155",
+                    "titleBar.activeBackground": "#0F172A",
+                    "titleBar.activeForeground": "#F8FAFC",
+                    "tab.activeBackground": "#1E293B",
+                    "tab.activeForeground": "#FF6E4A",
+                    "tab.inactiveBackground": "#0F172A",
+                    "tab.inactiveForeground": "#94A3B8"
+          },
+          "editor.tokenColorCustomizations": {
+                    "textMateRules": [
+                              {
+                                        "scope": "keyword",
+                                        "settings": {
+                                                  "foreground": "#FF6E4A"
+                                        }
+                              },
+                              {
+                                        "scope": "string",
+                                        "settings": {
+                                                  "foreground": "#4ADE80"
+                                        }
+                              },
+                              {
+                                        "scope": "comment",
+                                        "settings": {
+                                                  "foreground": "#94A3B8",
+                                                  "fontStyle": "italic"
+                                        }
+                              },
+                              {
+                                        "scope": "entity.name.function",
+                                        "settings": {
+                                                  "foreground": "#60A5FA"
+                                        }
+                              },
+                              {
+                                        "scope": "entity.name.type",
+                                        "settings": {
+                                                  "foreground": "#C084FC"
+                                        }
+                              }
+                    ]
+          },
+          "editor.cursorStyle": "line",
+          "editor.cursorWidth": 2,
+          "editor.cursorBlinking": "phase",
+          "window.title": "ZERO DARK THIRTY - Dev, Don't Kill My Vibe",
+          "window.titleBarStyle": "custom",
+          "editor.codeActionsOnSave": {
+                    "source.fixAll.eslint": true,
+                    "source.fixAll.format": true
+          },
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "workbench.startupEditor": "none",
+          "workbench.editor.enablePreview": false,
+          "terminal.integrated.defaultProfile.osx": "bash",
+          "terminal.integrated.shell.osx": "/bin/bash",
+          "workbench.iconTheme": "material-icon-theme"
+}
